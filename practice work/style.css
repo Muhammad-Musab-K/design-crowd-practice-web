@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.over{
+    overflow: hidden;
+}
+
+    
+
+
+
+
+.navbar1{
+    display: flex;
+    background-color: rgb(46, 46, 46);
+    justify-content: center;
+    width: 100vw;
+    
+
+}
+.first{
+list-style:none ;
+display: flex;
+justify-content: center;
+
+}
+.first li {
+    padding: 10px 18px;
+}
+.first li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.navbar2{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 50px;
+    width: 100vw;
+}
+.second{
+    list-style:none ;
+display: flex;
+
+
+
+}
+.second li{
+     padding: 10px 20px;
+}
+.second li a{
+    text-decoration: none;
+    color: grey;
+    font-size:13px ;
+    font-weight: 900;
+}
+.second li a:hover{
+    color: skyblue;
+}
+.third{
+    list-style:none ;
+display: flex;
+
+}
+.logo{
+    padding-top: 5px;
+}
+.third li {
+    padding: 10px 20px;
+}
+.third li a{
+    text-decoration: none;
+    color: grey;
+    font-size:13px ;
+    font-weight: 900;
+}
+.third li a:hover{
+    color: skyblue;
+}
+.post-project{
+font-size: 12px;
+font-weight: 900;
+background-color: white;
+padding: 0px 20px;
+line-height: 12px;
+border-radius: 5px;
+
+}
+.post-project:hover{
+    border-color: skyblue;
+    color: skyblue;
+}
+header{
+box-shadow: 2px 2px 2px rgb(225, 225, 225);
+    position:sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+}
+
+.main-box ul{
+    list-style-image: url('https://dcstatic.com/images/icons/common-medium/common-medium-tick-6856a1e180.svg');
+    list-style-position:inside;
+    
+
+}
+.first-box{
+    display: flex;
+width: 100%;
+margin: auto;
+justify-content:space-evenly;
+background-color: rgb(249, 255, 255);
+padding-top: 50px;
+padding-left:50px ;
+padding-right: 50px;
+}
+
+
+.main-box h1 {
+font-size: 48px;
+width: 45vw;
+font-weight: 2000px;
+line-height:60px;
+
+}
+.main-box h3{
+    font-size: 25px;
+    margin-top: 20px;
+    color: grey;
+}
+.main-box ul{
+    margin-top: 30px;
+    color: grey;
+}
+.main-box ul li {
+    margin-top:20px ;
+    font-weight: bold;
+}
+
+.get-start{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    font-weight:900;
+    background-color: rgb(22, 142, 223);
+    padding: 10px 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 15px;
+    box-shadow: 5px 5px 5px grey;
+
+}
+.get-start:hover{
+background-color: rgb(20, 119, 185) ;
+}
+.get-start span{
+    padding-left: 20px;
+
+}
+.get-start .arrow{
+    margin-top: 7px;
+    margin-left: 20px;
+  
+}
+.buttone{
+    display: flex;
+    margin-top: 20px;
+}
+.see-how-it-work{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(22, 142, 223);
+    font-weight:900;
+    
+    background-color: rgb(249, 255, 255);
+    padding: 10px 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 15px;
+    margin-left: 8px;
+    
+    margin-right:40px;
+}
+.new-box{
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    padding-bottom: 30px;
+}
+.service h1{
+    font-weight: bolder;
+}
+.small-box{
+    padding: 20px 10px;
+    text-align: center;
+    border: 1px solid rgb(232, 229, 229);
+    width: 13vw;
+    height: 180px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(201, 199, 199);
+}
+.small-box p{
+    font-weight: bold;
+}
+.small-box:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+.see-all{
+    color: rgb(67, 190, 239);
+    text-align: center;
+    font-weight: bold;
+
+}
+.get-ins{
+background-color: rgb(228, 224, 224);
+padding-top: 50px;
+}
+.get-ins h1{
+    font-weight: bolder;
+}
+.card-box{
+    display: flex;
+    padding: 10px 20px;
+    padding-top: 40px;
+    justify-content: space-evenly;
+
+}
+.cards{
+    width: 280px;
+    height: 282.67px;
+    border-radius: 5px ;
+    background-color: white;
+}
+.data{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.info{
+    text-align: center;
+    
+    margin-top: 10px;
+}
+.info p{
+    font-weight: bold;
+}
